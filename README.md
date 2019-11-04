@@ -6,7 +6,7 @@
 
 
 
-####Integrantes do Grupo 
+### Integrantes do Grupo 
                 
 - Leonardo Lira Gama <b>RA: 1701888 </b>
 - Gabriel Marques Pirola <b>RA: 1800728</b>

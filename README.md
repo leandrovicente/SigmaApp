@@ -20,7 +20,7 @@
 
 Para acessar o sistema utilizar 
 
-Usuario: impacta@imapacta.com.br
+Usuario: impacta@impacta.com.br
 Senha: impacta
 
 Ou

@@ -1,17 +1,29 @@
-# Kotlin
 
 
-Leonardo Lira Gama 1701888
+# Kotlin - Sigma
 
-Gabriel Marques Pirola 1800728
+![](https://raw.githubusercontent.com/leandrovicente/leandrovicente.github.io/master/img/rh.png)
 
-Victor de Souza Soranz 1800829
 
-Ewerton dos Santos Araújo 1800448
 
-Bruno Luziani Lopes 1800547
+### Integrantes do Grupo 
+                
+- Leonardo Lira Gama <b>RA: 1701888 </b>
+- Gabriel Marques Pirola <b>RA: 1800728</b>
+- Victor de Souza Soranz <b>RA: 1800829</b>
+- Ewerton dos Santos Araújo <b>RA: 1800448</b>
+- Bruno Luziani Lopes <b>RA: 1800547</b>
+- Edison Maciel da Silva Junior<b>RA: 1801987</b>
+- Leandro da Silva Vicente <b>RA: 1802049</b>
 
-Edison Maciel da Silva Junior 1801987
+#### Acesso Ao Sistema
 
-Leandro da Silva Vicente 1802049
+Para acessar o sistema utilizar 
+
+Usuario: impacta@imapacta.com.br
+Senha: impacta
+
+Ou
+
+Criar uma Nova Conta
 

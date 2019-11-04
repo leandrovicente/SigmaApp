@@ -1,0 +1,5 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
+    <item name="ic_menu_cadastro" type="drawable">@android:drawable/ic_menu_save</item>
+    <item name="ic_menu_close" type="drawable">@android:drawable/ic_menu_close_clear_cancel</item>
+</resources>

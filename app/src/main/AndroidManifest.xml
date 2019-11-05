@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="br.com.fake.sigma">
-<uses-permission android:name="android.permission.INTERNET"/>
+        xmlns:tools="http://schemas.android.com/tools"
+        package="br.com.fake.sigma">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
             android:allowBackup="true"
@@ -9,7 +10,8 @@
             android:label="sigma"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppTheme"
+            tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -25,6 +27,30 @@
         </activity>
         <activity android:name=".MainActivity">
         </activity>
+        <service
+                android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+                android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data
+                android:name="com.google.firebase.messaging.default_notification_icon"
+                android:resource="@android:drawable/ic_notification_clear_all" />
+        <meta-data
+                android:name="com.google.firebase.messaging.default_notification_color"
+                android:resource="@color/colorAccent" />
+
+        <meta-data
+                android:name="com.google.firebase.messaging.default_notification_channel_id"
+                android:value="CodeAndroid"/>
+
+
     </application>
 
 </manifest>

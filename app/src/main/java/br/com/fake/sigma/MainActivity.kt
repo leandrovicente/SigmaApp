@@ -19,6 +19,7 @@ import br.com.fake.sigma.model.Reqres
 import com.androidnetworking.AndroidNetworking
 import com.androidnetworking.error.ANError
 import com.androidnetworking.interfaces.ParsedRequestListener
+import com.google.firebase.messaging.FirebaseMessaging
 
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
@@ -33,6 +34,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        FirebaseMessaging.getInstance().isAutoInitEnabled = true
+
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener { view ->

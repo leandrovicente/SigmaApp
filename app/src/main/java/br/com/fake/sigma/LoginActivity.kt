@@ -14,6 +14,7 @@ import android.view.Window
 import android.view.WindowManager
 import android.widget.*
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.messaging.FirebaseMessaging
 import org.w3c.dom.Text
 
 class LoginActivity : AppCompatActivity() {
@@ -35,7 +36,6 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             window.setStatusBarColorTo(R.color.colorPrimary)
         }
